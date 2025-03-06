@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Phosphor Icons';
+    src: url('phosphor-icons.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  .ph {
+    font-family: 'Phosphor Icons' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .ph-arrow-down:before {
+    content: "\ea4c";
+  }
+
+  /* Add other icon codes as needed */
