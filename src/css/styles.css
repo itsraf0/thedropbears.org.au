@@ -3,6 +3,20 @@
     --accent-color: #FdB916;
 }
 
+@font-face {
+    font-family: 'Geist Mono';
+    src: url('/fonts/GeistMono-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Geist Mono';
+    src: url('/fonts/GeistMono-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
 
 * {
     margin: 0;
@@ -454,7 +468,7 @@ nav.scrolled {
 }
 
 .sponsor-logo::after {
-    content: '\ea5b';  /* Phosphor Icons unicode for arrow-square-out */
+    content: '\ea54';  /* Phosphor Icons unicode for arrow-right */
     font-family: 'Phosphor Icons';
     position: absolute;
     top: 0.5rem;
